@@ -1,0 +1,18 @@
+{
+  "name": "chopex-panel-railway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CHOPEX Panel on Node.js (Railway-ready, feature-complete port of the Cloudflare Worker)",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
